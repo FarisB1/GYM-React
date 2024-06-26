@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: F5F5F5;
+    height: 100vh;
+    width: 100vw;
+   
+    
+    font-family: 'Outfit', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:F5F5F5;
+    padding: 10px 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+nav .logo {
+    margin-right: 600px; /* Adjust the spacing between logo and nav */
+}
+nav .logo img {
+    
+    
+    height: 200px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: left 50px;; /* Pushes the nav items to the right */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #E11212;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 18px; /* Smaller font size for the nav items */
+}
+
+nav ul li a:hover {
+    background-color: white;
+}
+header.hero {
+    border:2px solid #000;
+    background: url('h1.png') no-repeat center center/cover;
+    height: 50vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-radius: 25px;
+    overflow: hidden;
+    /*margin: 20px;*/
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+.individual-training {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.individual-training .content {
+    max-width: 600px;
+    margin-right: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+
+.individual-training button {
+    display: block;
+    width: calc(1/2 * 600px); /* 2/3 the width of the text */
+    max-width: calc(2/3 * 600px); /* Ensure button doesn't exceed text width */
+    background-color: white;
+    color: #E11212;
+    border: 2px solid #E11212;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+.individual-training button:hover {
+    background-color: #E11212;
+    color: white;
+}
+
+.individual-training img {
+    
+    max-width: 50%;
+    border-radius: 20px;
+   
+    margin-left: 190px;
+}
